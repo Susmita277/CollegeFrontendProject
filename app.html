@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <style>
+    .calculator {
+        margin-top: 3%;
+      width: 200px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 5px;
+      justify-content: center;
+      margin-left: 40%;
+
+    }
+    
+    .calculator input[type="text"] {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 5px;
+      font-size: 18px;
+      justify-content: center;
+    }
+    
+    .calculator button {
+      width: 48%;
+      padding: 5px;
+      font-size: 18px;
+      margin-bottom: 5px;
+      justify-content: center;
+    }
+    
+    .calculator .row {
+      display: flex;
+      justify-content: space-between;
+      justify-content: center;
+    }
+    
+    .calculator .row:nth-child(5) button {
+      width: 100%;
+    }
+    h2{
+        margin-left: 40%;
+        color: rgba(0, 0, 255, 0.529);
+    }
+  </style>
+</head>
+<h2> Layout of Calculator</h2>
+  <div class="calculator">
+    <input type="text" id="display" readonly>
+    <div class="row">
+      <button >7</button>
+      <button>8</button>
+      <button >9</button>
+      <button >/</button>
+    </div>
+    <div class="row">
+      <button >4</button>
+      <button >5</button>
+      <button>6</button>
+      <button >*</button>
+    </div>
+    <div class="row">
+      <button >1</button>
+      <button>2</button>
+      <button >3</button>
+      <button >-</button>
+    </div>
+    <div class="row">
+      <button>0</button>
+      <button >.</button>
+      <button >C</button>
+      <button >+</button>
+    </div>
+
+</body>
+</html>
